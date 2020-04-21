@@ -1,0 +1,187 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* RESET */
+
+/* STILI GENERALI */
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+  font-weight: bold;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.free {
+  color: white;
+  background-color: #ff7a59;
+  border: 0.5px solid #ff7a59;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* STILE GENERALI */
+
+/* INIZIO HEADER */
+header {
+  height: 500px;
+}
+
+header nav {
+  height: 80px;
+}
+
+header nav .menu-left {
+  width: 50%;
+  height: 100%;
+}
+
+header nav .menu-right {
+  width: 50%;
+  height: 100%;
+}
+
+header nav .col .menu a {
+  line-height: 80px;
+  font-size: 14px;
+}
+
+header nav .col a {
+  color: #33475b;
+}
+
+header nav .col .menu li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+header .menu-left .menu .fas.fa-chevron-down {
+  padding-right: 20px;
+  border-right: 1px solid #33475b;
+}
+
+header .menu-left .menu .padding {
+  padding-left: 12px;
+}
+
+header .menu-right .menu {
+  text-align: right;
+}
+
+header hr {
+  border: 0.3px solid #33475b;
+}
+
+header .menu-right .menu li {
+  padding-left: 20px;
+}
+
+header .login {
+  border: 0.5px solid #ff7a59;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+header .fas.fa-search {
+  color: lightblue;
+}
+
+header nav .logo {
+  width: 50%;
+  height: 100%;
+  line-height: 80px;
+  padding-top: .8%;
+}
+
+header nav .menu-tendina {
+  width: 50%;
+  height: 100%;
+}
+
+header nav .col .menu-tendina .menu a {
+  line-height: 80px;
+  font-size: 14px;
+}
+
+header .col .menu-tendina .menu li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+header .menu-tendina .menu {
+  text-align: right;
+}
+
+header .menu-tendina .menu .fas.fa-chevron-down {
+  margin-left: 4px;
+  margin-right: 12px;
+}
+
+header .spazio {
+  margin-right: 12px;
+}
+
+header .intestazione {
+  background-color: #ff7a59;
+  background-image: url('../img/jumbotron.png');
+  height: 695.3px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+header .intestazione .jumbotron {
+  width: 45%;
+  height: 100%;
+}
+
+header .intestazione .jumbotron .free {
+  padding: 20px;
+  font-size: 14px;
+}
+
+header .intestazione .jumbotron h1 {
+  margin-bottom: 22px;
+  margin-top: 13%;
+}
+
+header .intestazione .jumbotron .text {
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+
+header .intestazione .jumbotron .text.mini {
+  font-size: 11px;
+  margin-top: 40px;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* FINE MAIN */
