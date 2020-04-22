@@ -35,6 +35,16 @@ body {
 
 a {
   text-decoration: none;
+  color: #33475b;
+}
+
+.three-elements-menu li {
+  display: inline-block;
+}
+
+
+.fas.fa-check {
+  color: #ff7a59;
 }
 
 .text {
@@ -74,8 +84,12 @@ header nav .col .menu a {
   font-size: 14px;
 }
 
-header nav .col a {
+header nav .col .padding {
   color: #33475b;
+}
+
+header .login {
+  color: #ff7a59;
 }
 
 header nav .col .menu li {
@@ -144,7 +158,6 @@ header .menu-tendina .menu .fas.fa-chevron-down {
   margin-left: 4px;
   margin-right: 12px;
 }
-
 header .spazio {
   margin-right: 12px;
 }
@@ -217,6 +230,8 @@ main #crm {
 main #crm .container {
   height: 300px;
   padding: 40px;
+  background-color: white;
+  border: 0.5px solid lightgrey;
 }
 
 main #crm .col.book {
@@ -237,26 +252,32 @@ main #crm .col.center h3 {
  padding-top: 20px;
 }
 
+main #crm .col.center h4 {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+main #crm .col.center hr {
+  text-align: right;
+  display: inline-block;
+  width: 60%;
+  line-height: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
 main #crm .col.center .text {
   padding-bottom: 30px;
   line-height: 20px;
 }
 
 main #crm .three-elements-menu .fas.fa-check {
-  color: #ff7a59;
   padding-right: 6px;
 }
 
 main #crm .three-elements-menu p {
   padding-right: 20px;
-}
-
-main #crm .col.center .line-menu li {
-  display: inline-block;
-}
-
-main #crm .three-elements-menu li {
-  display: inline-block;
 }
 
 main #crm .book img {
@@ -270,16 +291,128 @@ main #crm .col.book .centramento {
   transform: translate(-50% , -50%);
 }
 
+main #crm .three-elements-menu {
+  margin-top: 30px;
+}
+
+/*
 main #crm .col.center .line-menu {
   padding-bottom: 30px;
 }
+
+
 main #crm .col.center .line-menu .divisor {
   width: 40%;
   border: 0.3px solid #33475b;
 }
+ */
 
-main #crm .container {
-  background-color: white;
-  border: 0.5px solid lightgrey;
+
+/*************************
+main #three-col {
+  height: 600px;
+
 }
+***************************/
+
+
+/*
+main #three-col .container {
+  height: 300px;
+  padding: 40px;
+  background-color: purple;
+}
+ */
+main #three-col {
+  margin-bottom: 45px;
+}
+
+main #three-col .container {
+  padding: 0;
+}
+
+main #three-col .col.sinistra {
+  width: 30%;
+  height: 100%;
+  border: 0.5px solid lightgrey;
+  background-color: white;
+}
+
+main #three-col .col.sinistra img {
+  width: 80px;
+}
+
+main #three-col .col.destra img {
+  width: 100px;
+}
+
+main #three-col .col.centrale img {
+  width: 73px;
+}
+
+main #three-col .col.centrale {
+  width: 30%;
+  height: 100%;
+  margin: 0 5%;
+  border: 0.5px solid lightgrey;
+  background-color: white;
+}
+
+main #three-col .col.destra {
+  width: 30%;
+  height: 100%;
+  border: 0.5px solid lightgrey;
+  background-color: white;
+}
+
+main #three-col .col {
+  text-align: center;
+  padding: 40px;
+}
+
+main #three-col h3 {
+  margin-top: 5%;
+  margin-bottom: 9%;
+}
+
+main #three-col h4 {
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+main #three-col .col .text.description {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+main #three-col .col.destra .text.description {
+  margin-bottom: 40px;
+}
+
+main #three-col .col .three-elements-menu {
+  margin-bottom: 45px;
+}
+
+.icons {
+  text-align: left;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.check {
+  display: inline-block;
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 20%;
+}
+ /*
+main #three-col .col .check {
+  text-align: left;
+  vertical-align: middle;
+}
+
+main #three-col .col .icons {
+  text-align: left;
+}
+
 /* FINE MAIN */
