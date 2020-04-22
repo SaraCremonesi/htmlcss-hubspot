@@ -15,6 +15,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
   font-weight: bold;
+  background-color: #f5f8fa;
 }
 
 .container {
@@ -183,5 +184,102 @@ header .intestazione .jumbotron .text.mini {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+main {
+  background-color: #f5f8fa;
+}
 
+main #cube {
+  text-align: center;
+  margin-top: 405px;
+}
+
+main .container {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+main .container img {
+  width: 265px;
+}
+
+main #cube h2 {
+  padding-bottom: 30px;
+}
+
+main #cube p {
+  padding-bottom: 40px;
+}
+
+main #crm {
+  margin-bottom: 45px;
+}
+
+main #crm .container {
+  height: 300px;
+  padding: 40px;
+}
+
+main #crm .col.book {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+main #crm .col.center {
+  width: 70%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+main #crm .col.center h3 {
+ padding-bottom: 30px;
+ padding-top: 20px;
+}
+
+main #crm .col.center .text {
+  padding-bottom: 30px;
+  line-height: 20px;
+}
+
+main #crm .three-elements-menu .fas.fa-check {
+  color: #ff7a59;
+  padding-right: 6px;
+}
+
+main #crm .three-elements-menu p {
+  padding-right: 20px;
+}
+
+main #crm .col.center .line-menu li {
+  display: inline-block;
+}
+
+main #crm .three-elements-menu li {
+  display: inline-block;
+}
+
+main #crm .book img {
+  width: 140px;
+}
+
+main #crm .col.book .centramento {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+main #crm .col.center .line-menu {
+  padding-bottom: 30px;
+}
+main #crm .col.center .line-menu .divisor {
+  width: 40%;
+  border: 0.3px solid #33475b;
+}
+
+main #crm .container {
+  background-color: white;
+  border: 0.5px solid lightgrey;
+}
 /* FINE MAIN */
