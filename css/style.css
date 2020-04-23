@@ -15,7 +15,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
   font-weight: bold;
-  background-color: #f5f8fa;
 }
 
 .container {
@@ -49,6 +48,10 @@ a {
 
 .text {
   font-size: 12px;
+}
+
+.white {
+  color: white;
 }
 
 .free {
@@ -163,7 +166,6 @@ header .spazio {
 }
 
 header .intestazione {
-  background-color: #ff7a59;
   background-image: url('../img/jumbotron.png');
   height: 695.3px;
   background-repeat: no-repeat;
@@ -201,11 +203,6 @@ main {
   background-color: #f5f8fa;
 }
 
-main #cube {
-  text-align: center;
-  margin-top: 405px;
-}
-
 main .container {
   padding-left: 12%;
   padding-right: 12%;
@@ -213,6 +210,12 @@ main .container {
 
 main .container img {
   width: 265px;
+}
+
+main #cube {
+  text-align: center;
+  margin-top: 355px;
+  padding-top: 5%;
 }
 
 main #cube h2 {
@@ -254,16 +257,15 @@ main #crm .col.center h3 {
 
 main #crm .col.center h4 {
   display: inline-block;
-  line-height: 30px;
   vertical-align: middle;
+  line-height: 30px;
 }
 
 main #crm .col.center hr {
-  text-align: right;
   display: inline-block;
-  width: 60%;
-  line-height: 30px;
   vertical-align: middle;
+  line-height: 30px;
+  width: 60%;
   margin-left: 30px;
 }
 
@@ -295,36 +297,8 @@ main #crm .three-elements-menu {
   margin-top: 30px;
 }
 
-/*
-main #crm .col.center .line-menu {
-  padding-bottom: 30px;
-}
-
-
-main #crm .col.center .line-menu .divisor {
-  width: 40%;
-  border: 0.3px solid #33475b;
-}
- */
-
-
-/*************************
 main #three-col {
-  height: 600px;
-
-}
-***************************/
-
-
-/*
-main #three-col .container {
-  height: 300px;
-  padding: 40px;
-  background-color: purple;
-}
- */
-main #three-col {
-  margin-bottom: 45px;
+ padding-bottom: 45px;
 }
 
 main #three-col .container {
@@ -390,7 +364,7 @@ main #three-col .col.destra .text.description {
 }
 
 main #three-col .col .three-elements-menu {
-  margin-bottom: 45px;
+  padding-bottom: 45px;
 }
 
 .icons {
@@ -405,14 +379,90 @@ main #three-col .col .three-elements-menu {
   line-height: 20px;
   margin-bottom: 20%;
 }
- /*
-main #three-col .col .check {
-  text-align: left;
-  vertical-align: middle;
+
+#lightblue .row {
+  text-align: center;
 }
 
-main #three-col .col .icons {
-  text-align: left;
+#lightblue .row p {
+  line-height: 24px;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
+
+#lightblue {
+  background-color: #00bda5;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#lightblue .container {
+  padding: 30px;
+}
+
+.contenitore-blocchi-sup {
+  width: 100%;
+  height: 175px;
+  border-bottom: 0.5px solid white;
+}
+
+.contenitore-blocchi-inf {
+  width: 100%;
+  height: 175px;
+}
+
+#lightblue .contenitore-blocchi-sup .col {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#lightblue .contenitore-blocchi-inf .col {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#lightblue img {
+  width: 80px;
+}
+
+ #lightblue .centramento {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50% , -50%);
+ }
+
+#lightblue .col.first , .col.fifth {
+  border-right: 0.5px solid white;
+}
+
+#lightblue .col.fourth , .col.eight {
+  border-left: 0.5px solid white;
+}
+
+#lightblue .col.second , .col.sixth {
+  border-right: 0.5px solid white;
+}
+
+#lightblue h1 {
+  font-size: 34px;
+}
+
+#lightblue .col.fifth img {
+  width: 50px;
+}
+
+ #lightblue .col.eight img {
+   width: 45px;
+ }
+
+ #lightblue .col.second img {
+   width: 70px;
+ }
+
 
 /* FINE MAIN */
