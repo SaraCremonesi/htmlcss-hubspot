@@ -436,6 +436,7 @@ main #lightblue h1 {
 
 main #lightblue .box {
   border-right: 0.5px solid white;
+  padding-top: 3%;
 }
 
 main #lightblue .box:nth-child(4) {
