@@ -61,7 +61,7 @@ a {
   border-radius: 5px;
   padding: 10px;
 }
-/* STILE GENERALI */
+/* STILI GENERALI */
 
 /* INIZIO HEADER */
 header {
@@ -427,7 +427,7 @@ main #lightblue .contenitore-blocchi-inf .col {
 }
 
 main #lightblue img {
-  width: 80px;
+  height: 30px;
 }
 
 main #lightblue h1 {
@@ -442,51 +442,118 @@ main #lightblue .box:nth-child(4) {
   border-right: none;
 }
 
-main #advertise .container {
+main #partners .container {
   margin-top: 3%;
   padding-left: 30px;
-  padding-right: 30px;
-  height: 200px;
+  padding-right: 1px;
 }
 
-main #advertise .col.sx {
+main #partners .col.sx {
   width: 30%;
-  padding-left: 9%;
+  padding-left: 5%;
   padding-right: 2%;
 }
 
-main #advertise .col.sx p {
+main #partners .col.sx p {
   line-height: 20px;
   padding-top: 15%;
 }
 
-
-main #advertise .col.dx {
-  width: 70%;
-  padding-left: 150px;
+main #partners .col.sx h1 {
+  padding-top: 10%;
+  font-size: 35px;
 }
 
-main #advertise .col {
+main #partners .col {
   height: 100%;
 }
 
-main #advertise img {
-  width: 107px;
+main #partners img {
+  width: 140px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-main #advertise .col.dx .contenitore-blocchi-sup {
+main #partners .col.dx .contenitore-blocchi-sup {
   height: 25%;
   padding-top: 5%;
+  text-align: center;
 }
 
-main #advertise .col.dx .contenitore-blocchi-inf {
-  padding-top: 3%;
+main #partners .col.dx {
+  width: 70%;
+  padding-left: 7%;
 }
 
-main #advertise .col.sx h1 {
-  padding-top: 10%;
-  font-size: 35px;
+main #partners .col.dx .contenitore-blocchi-inf {
+  padding-top: 5%;
+  height: 25%;
+  text-align: center;
+}
+
+main #final .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main #final .col {
+  width: 50%;
+  padding-bottom: 6%;
+}
+
+main #final .col img {
+  float: right;
+}
+
+main #final .jumbotron h1 {
+  margin-bottom: 22px;
+  margin-top: 13%;
+}
+
+main #final .jumbotron .text {
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+
+main #final .jumbotron .text.mini {
+  font-size: 11px;
+  margin-top: 40px;
 }
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer {
+background-color: #33475b;
+height: 300px;
+color: white;
+}
+
+footer .menu.text.mini a {
+  color: white;
+}
+
+footer .col {
+  width: 25%;
+}
+
+footer .container {
+  padding-top: 2.5%;
+}
+
+footer h5 {
+  margin-bottom: 7%;
+}
+
+footer ul {
+  line-height: 30px;
+}
+
+footer ul li a {
+  font-size: 11px;
+  padding-right: 8%;
+}
+
+footer a:last-child {
+  padding-right: none;
+}
+/* FINE FOOTER */
